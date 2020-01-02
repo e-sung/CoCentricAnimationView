@@ -1,10 +1,6 @@
 use_frameworks!
+platform :ios, '10.0'
 
 target 'CoCentricCircleAnimationView_Example' do
   pod 'CoCentricCircleAnimationView', :path => '../'
-
-  target 'CoCentricCircleAnimationView_Tests' do
-    inherit! :search_paths
-
-  end
 end

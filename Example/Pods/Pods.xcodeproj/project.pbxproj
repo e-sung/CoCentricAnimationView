@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		121F7B582DAD94DD41A9951B0441E61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		460028DF2A901DE143B825749783DBA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		46184D0D90C908D5684340F1ECDAEA6E /* CoCentricAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF2905AD57B01D84C74770D41733E /* CoCentricAnimationView.swift */; };
-		53771D2382031C6B0751C95E11F0D679 /* Pods-CoCentricCircleAnimationView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D73995ADBB143902EDC33AF557B40DD7 /* Pods-CoCentricCircleAnimationView_Tests-dummy.m */; };
 		7235309FEA8B0DDA0EEC2BC47A3583FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		935205F1D93465286D7D38FCA114AFF6 /* CoCentricCircleAnimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD72A2A441555A35E2D1E8336B65FD9 /* CoCentricCircleAnimationView-dummy.m */; };
-		BFB4D2E8B2F4D0046CBC55C137CB44CE /* Pods-CoCentricCircleAnimationView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D28A25920869DEBD7C5B839A9F127B /* Pods-CoCentricCircleAnimationView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBEAA5BCDF8839C69110D273CEDF9C19 /* Pods-CoCentricCircleAnimationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8D1BBBEB1E0F41D95BD9D22D50F189 /* Pods-CoCentricCircleAnimationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D39626A89F91A50E31B22C5542D19E10 /* Pods-CoCentricCircleAnimationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57B2BF84FB8CBBB5883A1A09900255 /* Pods-CoCentricCircleAnimationView_Example-dummy.m */; };
+		CBEAA5BCDF8839C69110D273CEDF9C19 /* Pods-CoCentricCircleAnimationView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FAFB9D8C02F23EBA29EC3062E2C74A /* Pods-CoCentricCircleAnimationView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D39626A89F91A50E31B22C5542D19E10 /* Pods-CoCentricCircleAnimationView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA862B7FD30F7CB13EF974B0D31C89 /* Pods-CoCentricCircleAnimationView_Example-dummy.m */; };
 		F99CA1307A22B38D9F56F8C87D5F140B /* CoCentricCircleAnimationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A5D85024C7CF3BC229FC023C2EAA8B /* CoCentricCircleAnimationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,45 +24,29 @@
 			remoteGlobalIDString = FC5C37275E76782BDFE1AD54BC3C6F05;
 			remoteInfo = CoCentricCircleAnimationView;
 		};
-		69424F6C3C660493965020045A405648 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E788AB2A54C77A633B868B5B492BA6C;
-			remoteInfo = "Pods-CoCentricCircleAnimationView_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CCA862B7FD30F7CB13EF974B0D31C89 /* Pods-CoCentricCircleAnimationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoCentricCircleAnimationView_Example-dummy.m"; sourceTree = "<group>"; };
+		1615DB5F47D89BDCB9FD98D338AC716B /* Pods-CoCentricCircleAnimationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoCentricCircleAnimationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		16425690735171D1F33BD40F2BAB5598 /* CoCentricCircleAnimationView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoCentricCircleAnimationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A45E117ACF03BFC46F388E50096A6 /* CoCentricCircleAnimationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoCentricCircleAnimationView.modulemap; sourceTree = "<group>"; };
-		1AF17C6C5EBA8AC34BDDE116B44FA26E /* Pods-CoCentricCircleAnimationView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoCentricCircleAnimationView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		27B454BF7F3954A3F56804056D82BBEE /* Pods-CoCentricCircleAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoCentricCircleAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2CB2F6F297C4B4553AC87B4FF8632DDF /* Pods-CoCentricCircleAnimationView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoCentricCircleAnimationView_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3254BF7DBDAEC19D4EBE567F5FD52AC2 /* Pods-CoCentricCircleAnimationView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoCentricCircleAnimationView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E7C1CF1F8D33DDE8A94578208CE8410 /* Pods-CoCentricCircleAnimationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoCentricCircleAnimationView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4967F7831D6C940B74695521AFFA491A /* Pods-CoCentricCircleAnimationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoCentricCircleAnimationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5787E7D04AEBEFD6E96FA7208F8801 /* Pods-CoCentricCircleAnimationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoCentricCircleAnimationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4BD72A2A441555A35E2D1E8336B65FD9 /* CoCentricCircleAnimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoCentricCircleAnimationView-dummy.m"; sourceTree = "<group>"; };
-		5CDEC1F391B5087A61A2606C7014EFAE /* Pods-CoCentricCircleAnimationView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoCentricCircleAnimationView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6206CF68A377F33A2383725C422666BC /* Pods-CoCentricCircleAnimationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoCentricCircleAnimationView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6D8D1BBBEB1E0F41D95BD9D22D50F189 /* Pods-CoCentricCircleAnimationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoCentricCircleAnimationView_Example-umbrella.h"; sourceTree = "<group>"; };
+		68C085DF669E7D8978E6C5AAAFD3C5C2 /* Pods-CoCentricCircleAnimationView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoCentricCircleAnimationView_Example-Info.plist"; sourceTree = "<group>"; };
 		73A048CF939DE4A42E35158E3EDC0796 /* CoCentricCircleAnimationView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoCentricCircleAnimationView-Info.plist"; sourceTree = "<group>"; };
-		756C1CA74393447A5CFFB9F38A35D91E /* Pods_CoCentricCircleAnimationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoCentricCircleAnimationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F0418A59899E36711DA2DE483D79EB6 /* Pods-CoCentricCircleAnimationView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoCentricCircleAnimationView_Tests.modulemap"; sourceTree = "<group>"; };
+		818588F4F03F772F987E00A7742A01F8 /* Pods-CoCentricCircleAnimationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoCentricCircleAnimationView_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6DE2F27E23E34600CDD5E2B661B10B /* Pods-CoCentricCircleAnimationView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoCentricCircleAnimationView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A7D2BDA940809788AF440F2254C7D2D5 /* CoCentricCircleAnimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoCentricCircleAnimationView.xcconfig; sourceTree = "<group>"; };
 		AA278E99644529972AABE24557D32DD0 /* Pods_CoCentricCircleAnimationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoCentricCircleAnimationView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3730244473A96611CD7A9C46CE2ED4C /* Pods-CoCentricCircleAnimationView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoCentricCircleAnimationView_Example.modulemap"; sourceTree = "<group>"; };
-		B3D28A25920869DEBD7C5B839A9F127B /* Pods-CoCentricCircleAnimationView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoCentricCircleAnimationView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B499A773DBC9A696A0C18C9A47EC2F90 /* Pods-CoCentricCircleAnimationView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoCentricCircleAnimationView_Example-Info.plist"; sourceTree = "<group>"; };
-		BF57B2BF84FB8CBBB5883A1A09900255 /* Pods-CoCentricCircleAnimationView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoCentricCircleAnimationView_Example-dummy.m"; sourceTree = "<group>"; };
 		C2BCF2905AD57B01D84C74770D41733E /* CoCentricAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoCentricAnimationView.swift; path = CoCentricCircleAnimationView/Classes/CoCentricAnimationView.swift; sourceTree = "<group>"; };
+		CE2026C7656B318A298C2C9107BE09BA /* Pods-CoCentricCircleAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoCentricCircleAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CF7CCE7C98E800FD103A9DEE0542B3A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D544F67D0B4A4F78C10AFC62893D59CD /* Pods-CoCentricCircleAnimationView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoCentricCircleAnimationView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D73995ADBB143902EDC33AF557B40DD7 /* Pods-CoCentricCircleAnimationView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoCentricCircleAnimationView_Tests-dummy.m"; sourceTree = "<group>"; };
+		D0F26BCC9B2D7196D89ACA741211CB5C /* Pods-CoCentricCircleAnimationView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoCentricCircleAnimationView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D2FAFB9D8C02F23EBA29EC3062E2C74A /* Pods-CoCentricCircleAnimationView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoCentricCircleAnimationView_Example-umbrella.h"; sourceTree = "<group>"; };
 		D7A5D85024C7CF3BC229FC023C2EAA8B /* CoCentricCircleAnimationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoCentricCircleAnimationView-umbrella.h"; sourceTree = "<group>"; };
-		DC6F7F9F9B6431E4187EAA18A366A0F8 /* Pods-CoCentricCircleAnimationView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoCentricCircleAnimationView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DEE9CCFD47CCA785A2371A4DB0BFC3BC /* CoCentricCircleAnimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoCentricCircleAnimationView-prefix.pch"; sourceTree = "<group>"; };
 		E0854B211B8CF46617E22C441F8273C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FC880F434B649403269802F3A454E57A /* CoCentricCircleAnimationView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CoCentricCircleAnimationView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -88,17 +69,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		35792EA77BE3FDE0C48442F1CC1A6420 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				460028DF2A901DE143B825749783DBA4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		332F139C1CDA15CC2A8A13469BFF77AB /* Pods-CoCentricCircleAnimationView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				818588F4F03F772F987E00A7742A01F8 /* Pods-CoCentricCircleAnimationView_Example.modulemap */,
+				1615DB5F47D89BDCB9FD98D338AC716B /* Pods-CoCentricCircleAnimationView_Example-acknowledgements.markdown */,
+				3C5787E7D04AEBEFD6E96FA7208F8801 /* Pods-CoCentricCircleAnimationView_Example-acknowledgements.plist */,
+				0CCA862B7FD30F7CB13EF974B0D31C89 /* Pods-CoCentricCircleAnimationView_Example-dummy.m */,
+				D0F26BCC9B2D7196D89ACA741211CB5C /* Pods-CoCentricCircleAnimationView_Example-frameworks.sh */,
+				68C085DF669E7D8978E6C5AAAFD3C5C2 /* Pods-CoCentricCircleAnimationView_Example-Info.plist */,
+				D2FAFB9D8C02F23EBA29EC3062E2C74A /* Pods-CoCentricCircleAnimationView_Example-umbrella.h */,
+				CE2026C7656B318A298C2C9107BE09BA /* Pods-CoCentricCircleAnimationView_Example.debug.xcconfig */,
+				9F6DE2F27E23E34600CDD5E2B661B10B /* Pods-CoCentricCircleAnimationView_Example.release.xcconfig */,
+			);
+			name = "Pods-CoCentricCircleAnimationView_Example";
+			path = "Target Support Files/Pods-CoCentricCircleAnimationView_Example";
+			sourceTree = "<group>";
+		};
 		36B1BA18D7E4CA39A35B5754EF1C5EC1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,20 +114,13 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7579BD60E7394A569F0436EC32B7D96C /* Pods-CoCentricCircleAnimationView_Tests */ = {
+		6B7A040D075F350B2E89B49B5715AC5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F0418A59899E36711DA2DE483D79EB6 /* Pods-CoCentricCircleAnimationView_Tests.modulemap */,
-				5CDEC1F391B5087A61A2606C7014EFAE /* Pods-CoCentricCircleAnimationView_Tests-acknowledgements.markdown */,
-				3254BF7DBDAEC19D4EBE567F5FD52AC2 /* Pods-CoCentricCircleAnimationView_Tests-acknowledgements.plist */,
-				D73995ADBB143902EDC33AF557B40DD7 /* Pods-CoCentricCircleAnimationView_Tests-dummy.m */,
-				2CB2F6F297C4B4553AC87B4FF8632DDF /* Pods-CoCentricCircleAnimationView_Tests-Info.plist */,
-				B3D28A25920869DEBD7C5B839A9F127B /* Pods-CoCentricCircleAnimationView_Tests-umbrella.h */,
-				4967F7831D6C940B74695521AFFA491A /* Pods-CoCentricCircleAnimationView_Tests.debug.xcconfig */,
-				D544F67D0B4A4F78C10AFC62893D59CD /* Pods-CoCentricCircleAnimationView_Tests.release.xcconfig */,
+				16425690735171D1F33BD40F2BAB5598 /* CoCentricCircleAnimationView.framework */,
+				AA278E99644529972AABE24557D32DD0 /* Pods_CoCentricCircleAnimationView_Example.framework */,
 			);
-			name = "Pods-CoCentricCircleAnimationView_Tests";
-			path = "Target Support Files/Pods-CoCentricCircleAnimationView_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		833241A67D2730D02F9C02DA6559EB91 /* Pod */ = {
@@ -148,15 +131,6 @@
 				E0854B211B8CF46617E22C441F8273C7 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		9BE9AB27294A855F1E9A2E5ED803B546 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CF950BE32643466A31F9613C5E0C63A0 /* Pods-CoCentricCircleAnimationView_Example */,
-				7579BD60E7394A569F0436EC32B7D96C /* Pods-CoCentricCircleAnimationView_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -173,26 +147,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				F488D0FBC644C9867E227D55B5830E73 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E2A914A28C95B05A86E2F3C6DAA55D26 /* Products */,
-				9BE9AB27294A855F1E9A2E5ED803B546 /* Targets Support Files */,
+				6B7A040D075F350B2E89B49B5715AC5B /* Products */,
+				D453B7E8C640FB7ECD000E06E7DA06E8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF950BE32643466A31F9613C5E0C63A0 /* Pods-CoCentricCircleAnimationView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				B3730244473A96611CD7A9C46CE2ED4C /* Pods-CoCentricCircleAnimationView_Example.modulemap */,
-				1AF17C6C5EBA8AC34BDDE116B44FA26E /* Pods-CoCentricCircleAnimationView_Example-acknowledgements.markdown */,
-				DC6F7F9F9B6431E4187EAA18A366A0F8 /* Pods-CoCentricCircleAnimationView_Example-acknowledgements.plist */,
-				BF57B2BF84FB8CBBB5883A1A09900255 /* Pods-CoCentricCircleAnimationView_Example-dummy.m */,
-				6206CF68A377F33A2383725C422666BC /* Pods-CoCentricCircleAnimationView_Example-frameworks.sh */,
-				B499A773DBC9A696A0C18C9A47EC2F90 /* Pods-CoCentricCircleAnimationView_Example-Info.plist */,
-				6D8D1BBBEB1E0F41D95BD9D22D50F189 /* Pods-CoCentricCircleAnimationView_Example-umbrella.h */,
-				27B454BF7F3954A3F56804056D82BBEE /* Pods-CoCentricCircleAnimationView_Example.debug.xcconfig */,
-				3E7C1CF1F8D33DDE8A94578208CE8410 /* Pods-CoCentricCircleAnimationView_Example.release.xcconfig */,
-			);
-			name = "Pods-CoCentricCircleAnimationView_Example";
-			path = "Target Support Files/Pods-CoCentricCircleAnimationView_Example";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -203,14 +160,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2A914A28C95B05A86E2F3C6DAA55D26 /* Products */ = {
+		D453B7E8C640FB7ECD000E06E7DA06E8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				16425690735171D1F33BD40F2BAB5598 /* CoCentricCircleAnimationView.framework */,
-				AA278E99644529972AABE24557D32DD0 /* Pods_CoCentricCircleAnimationView_Example.framework */,
-				756C1CA74393447A5CFFB9F38A35D91E /* Pods_CoCentricCircleAnimationView_Tests.framework */,
+				332F139C1CDA15CC2A8A13469BFF77AB /* Pods-CoCentricCircleAnimationView_Example */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F488D0FBC644C9867E227D55B5830E73 /* Development Pods */ = {
@@ -224,14 +179,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0847768B7E26F24068D8EC1032192AAA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFB4D2E8B2F4D0046CBC55C137CB44CE /* Pods-CoCentricCircleAnimationView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		34232E5E4ACABC85A77CC37A3F033CA2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,25 +198,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1541BB7CD6424A5DDB5A4757CD06F4C3 /* Pods-CoCentricCircleAnimationView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22119D4D7F79A83176BF4103E351E92F /* Build configuration list for PBXNativeTarget "Pods-CoCentricCircleAnimationView_Tests" */;
-			buildPhases = (
-				0847768B7E26F24068D8EC1032192AAA /* Headers */,
-				4D1B6B82A091C3CAF8FB783FF52514EA /* Sources */,
-				35792EA77BE3FDE0C48442F1CC1A6420 /* Frameworks */,
-				DF828BCA4D07E6AE4FF22B3E3BB200D8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2805EA6961E95F4D7CFDEF278C46FD2D /* PBXTargetDependency */,
-			);
-			name = "Pods-CoCentricCircleAnimationView_Tests";
-			productName = "Pods-CoCentricCircleAnimationView_Tests";
-			productReference = 756C1CA74393447A5CFFB9F38A35D91E /* Pods_CoCentricCircleAnimationView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5E788AB2A54C77A633B868B5B492BA6C /* Pods-CoCentricCircleAnimationView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48368EAAD2BEBA6A1C551B6056142828 /* Build configuration list for PBXNativeTarget "Pods-CoCentricCircleAnimationView_Example" */;
@@ -325,13 +253,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E2A914A28C95B05A86E2F3C6DAA55D26 /* Products */;
+			productRefGroup = 6B7A040D075F350B2E89B49B5715AC5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FC5C37275E76782BDFE1AD54BC3C6F05 /* CoCentricCircleAnimationView */,
 				5E788AB2A54C77A633B868B5B492BA6C /* Pods-CoCentricCircleAnimationView_Example */,
-				1541BB7CD6424A5DDB5A4757CD06F4C3 /* Pods-CoCentricCircleAnimationView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -351,24 +278,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF828BCA4D07E6AE4FF22B3E3BB200D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D1B6B82A091C3CAF8FB783FF52514EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53771D2382031C6B0751C95E11F0D679 /* Pods-CoCentricCircleAnimationView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5C85AF7CCDB83A69911417D5B31A2CD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,18 +307,12 @@
 			target = FC5C37275E76782BDFE1AD54BC3C6F05 /* CoCentricCircleAnimationView */;
 			targetProxy = 4E55D8F18235ADB8BDF2CD10FCDF029E /* PBXContainerItemProxy */;
 		};
-		2805EA6961E95F4D7CFDEF278C46FD2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CoCentricCircleAnimationView_Example";
-			target = 5E788AB2A54C77A633B868B5B492BA6C /* Pods-CoCentricCircleAnimationView_Example */;
-			targetProxy = 69424F6C3C660493965020045A405648 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B0445AC32E4CBF8E4495F4F2DB57D5F /* Debug */ = {
+		0E2F64BDE250B7A80E74B1BB18753B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27B454BF7F3954A3F56804056D82BBEE /* Pods-CoCentricCircleAnimationView_Example.debug.xcconfig */;
+			baseConfigurationReference = CE2026C7656B318A298C2C9107BE09BA /* Pods-CoCentricCircleAnimationView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -421,7 +327,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Example/Pods-CoCentricCircleAnimationView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Example/Pods-CoCentricCircleAnimationView_Example.modulemap";
@@ -438,74 +344,7 @@
 			};
 			name = Debug;
 		};
-		2A97FA45A32A6812C8AF952430A773C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E7C1CF1F8D33DDE8A94578208CE8410 /* Pods-CoCentricCircleAnimationView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Example/Pods-CoCentricCircleAnimationView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Example/Pods-CoCentricCircleAnimationView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5D3B36C1940606EDC0201489F6379D77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7D2BDA940809788AF440F2254C7D2D5 /* CoCentricCircleAnimationView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CoCentricCircleAnimationView/CoCentricCircleAnimationView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoCentricCircleAnimationView/CoCentricCircleAnimationView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CoCentricCircleAnimationView/CoCentricCircleAnimationView.modulemap";
-				PRODUCT_MODULE_NAME = CoCentricCircleAnimationView;
-				PRODUCT_NAME = CoCentricCircleAnimationView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		66505DDFE04176165BB293C54DA9D0AD /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -556,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -568,6 +407,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		5D3B36C1940606EDC0201489F6379D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D2BDA940809788AF440F2254C7D2D5 /* CoCentricCircleAnimationView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoCentricCircleAnimationView/CoCentricCircleAnimationView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoCentricCircleAnimationView/CoCentricCircleAnimationView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoCentricCircleAnimationView/CoCentricCircleAnimationView.modulemap";
+				PRODUCT_MODULE_NAME = CoCentricCircleAnimationView;
+				PRODUCT_NAME = CoCentricCircleAnimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		773821012B1FB141176C7E8DF1E23B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -600,7 +471,7 @@
 			};
 			name = Debug;
 		};
-		ABA069EBBBBCC78986ADE1F4528806C2 /* Release */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -648,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -659,9 +530,9 @@
 			};
 			name = Release;
 		};
-		BF61E192FFBB75644F01E8CB065183A4 /* Release */ = {
+		B682C37F91150E3F2901D25AC9745B7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D544F67D0B4A4F78C10AFC62893D59CD /* Pods-CoCentricCircleAnimationView_Tests.release.xcconfig */;
+			baseConfigurationReference = 9F6DE2F27E23E34600CDD5E2B661B10B /* Pods-CoCentricCircleAnimationView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -674,12 +545,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Tests/Pods-CoCentricCircleAnimationView_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Example/Pods-CoCentricCircleAnimationView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Tests/Pods-CoCentricCircleAnimationView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Example/Pods-CoCentricCircleAnimationView_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -694,52 +565,9 @@
 			};
 			name = Release;
 		};
-		EDDF73A7C627834E3AF9D6290F438492 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4967F7831D6C940B74695521AFFA491A /* Pods-CoCentricCircleAnimationView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Tests/Pods-CoCentricCircleAnimationView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CoCentricCircleAnimationView_Tests/Pods-CoCentricCircleAnimationView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22119D4D7F79A83176BF4103E351E92F /* Build configuration list for PBXNativeTarget "Pods-CoCentricCircleAnimationView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EDDF73A7C627834E3AF9D6290F438492 /* Debug */,
-				BF61E192FFBB75644F01E8CB065183A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4805A1C07857273042AE703682E709E2 /* Build configuration list for PBXNativeTarget "CoCentricCircleAnimationView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -752,8 +580,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66505DDFE04176165BB293C54DA9D0AD /* Debug */,
-				ABA069EBBBBCC78986ADE1F4528806C2 /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -761,8 +589,8 @@
 		48368EAAD2BEBA6A1C551B6056142828 /* Build configuration list for PBXNativeTarget "Pods-CoCentricCircleAnimationView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B0445AC32E4CBF8E4495F4F2DB57D5F /* Debug */,
-				2A97FA45A32A6812C8AF952430A773C5 /* Release */,
+				0E2F64BDE250B7A80E74B1BB18753B93 /* Debug */,
+				B682C37F91150E3F2901D25AC9745B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
