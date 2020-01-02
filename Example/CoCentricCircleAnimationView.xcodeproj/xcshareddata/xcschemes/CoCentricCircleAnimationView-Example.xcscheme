@@ -55,16 +55,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "CoCentricCircleAnimationView_Tests.xctest"
-               BlueprintName = "CoCentricCircleAnimationView_Tests"
-               ReferencedContainer = "container:CoCentricCircleAnimationView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "F03C621B23BDC0BD003D4F6C"
                BuildableName = "CoCentricCircleAnimationView_ExampleUITests.xctest"
                BlueprintName = "CoCentricCircleAnimationView_ExampleUITests"
