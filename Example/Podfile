@@ -6,6 +6,5 @@ target 'CoCentricCircleAnimationView_Example' do
   target 'CoCentricCircleAnimationView_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end

@@ -1,0 +1,14 @@
+name: Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: macOS-latest
+    steps:
+     - name: Checkout
+       uses: actions/checkout@v1
+     - name: CocoaPod Install
+       run: pod install --project-directory=Example
+     - name: Run Tests
+       run: xcodebuild -workspace ./Example/CoCentricCircleAnimationView.xcworkspace -scheme CoCentricCircleAnimationView-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' -enableCodeCoverage YES test

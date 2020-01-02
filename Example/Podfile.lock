@@ -1,0 +1,16 @@
+PODS:
+  - CoCentricCircleAnimationView (0.1.0)
+
+DEPENDENCIES:
+  - CoCentricCircleAnimationView (from `../`)
+
+EXTERNAL SOURCES:
+  CoCentricCircleAnimationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoCentricCircleAnimationView: f968aff898a46a9e5f5a1ac9057c7a74eb981154
+
+PODFILE CHECKSUM: a4547c050be84ad6dfa27a5135fafade5a67ee34
+
+COCOAPODS: 1.8.4

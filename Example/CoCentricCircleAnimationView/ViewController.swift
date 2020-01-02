@@ -7,17 +7,19 @@
 //
 
 import UIKit
+import CoCentricCircleAnimationView
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    @IBOutlet private var circleAnimationView: CoCentricAnimationView!
+    
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func start() {
+        circleAnimationView.start()
+    }
+    
+    @IBAction func stop() {
+        circleAnimationView.stop()
     }
 
 }
