@@ -1,15 +1,14 @@
 # CoCentricCircleAnimationView
 
-[![CI Status](https://img.shields.io/travis/e-sung/CoCentricCircleAnimationView.svg?style=flat)](https://travis-ci.org/e-sung/CoCentricCircleAnimationView)
-[![Version](https://img.shields.io/cocoapods/v/CoCentricCircleAnimationView.svg?style=flat)](https://cocoapods.org/pods/CoCentricCircleAnimationView)
-[![License](https://img.shields.io/cocoapods/l/CoCentricCircleAnimationView.svg?style=flat)](https://cocoapods.org/pods/CoCentricCircleAnimationView)
-[![Platform](https://img.shields.io/cocoapods/p/CoCentricCircleAnimationView.svg?style=flat)](https://cocoapods.org/pods/CoCentricCircleAnimationView)
+## Introduction
+
+[CoreAnimation](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004514-CH1-SW1) 및 [UIBezierPath](https://developer.apple.com/documentation/uikit/uibezierpath)의 사용법 예제로, 동심원 애니메이션을 구현한 프로젝트입니다. 
+
+![](./Example.gif)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
