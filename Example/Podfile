@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CoCentricCircleAnimationView_Example' do
+  pod 'CoCentricCircleAnimationView', :path => '../'
+
+  target 'CoCentricCircleAnimationView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
